@@ -27,7 +27,7 @@ public:
 		instance = nullptr;
 	};
 
-	static T* GetInstance(){return instance;};
+	static T* GetInstance() { return instance; };
 
 };
 
